@@ -8,7 +8,6 @@ const App = () => {
   const [catIDX, setcatIDX] = useState(1);
   return (
     <div className="flex justify-center items-center">
-      <h1>cat photos</h1>
       <NavButton 
         icon="left" 
         onClick={() => setcatIDX(catIDX - 1)}
