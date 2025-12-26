@@ -7,7 +7,7 @@ import CATS from "./cats";
 const App = () => {
   const [catIDX, setcatIDX] = useState(1);
   return (
-    <div className="w-[100%] flex justify-center items-end">
+    <div className="w-[100%] flex justify-center items-center">
       <NavButton 
         icon="left" 
         onClick={() => setcatIDX(catIDX - 1)}
